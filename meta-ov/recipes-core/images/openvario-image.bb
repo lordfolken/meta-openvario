@@ -11,6 +11,7 @@ IMAGE_INSTALL += "\
     sensord \
     variod \
     ovmenu-ng \
+    xcsoar \
 "
 #   xcsoar 
 export IMAGE_BASENAME = "openvario-image"
