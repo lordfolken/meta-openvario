@@ -14,7 +14,7 @@ IMAGE_INSTALL += "\
     dtc \
     i2c-tools \
     raspi-gpio \
-    xcsoar \
+    xcsoar-testing \
 "
 #   xcsoar 
 export IMAGE_BASENAME = "openvario-image-develop"
