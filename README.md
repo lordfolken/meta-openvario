@@ -48,10 +48,18 @@ Available machines for the OpenVario with the new adapter board DS2 are:
 - openvario-7-AM070-DS2
 - openvario-57-lvds-DS2
 
+Available machines for the OpenVario 2 with raspberry pi 4 compute modules:
+- ov-rpi4-64
+
 ### Starting the build
 
 ```
 bitbake openvario-image
+```
+
+You will find your images in 
+```
+cd workdir/tmp/deploy/images/$MACHINE
 ```
 
 ### Write image to SD Card
